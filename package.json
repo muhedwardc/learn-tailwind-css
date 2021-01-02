@@ -1,0 +1,25 @@
+{
+  "name": "learn-tailwind-css",
+  "version": "1.0.0",
+  "description": "my tailwind css learning archive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build src/styles.css -o dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhedwardc/learn-tailwind-css.git"
+  },
+  "author": "Muhammad Edward C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhedwardc/learn-tailwind-css/issues"
+  },
+  "homepage": "https://github.com/muhedwardc/learn-tailwind-css#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.2",
+    "tailwindcss": "^2.0.2"
+  }
+}
